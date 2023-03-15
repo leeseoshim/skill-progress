@@ -1,0 +1,51 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border-radius: 5px;
+  box-shadow: 0 0 20px lightgrey;
+  padding: 20px;
+  background-color: rgb(49, 49, 49);
+  color: #fff;
+  width: 400px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+p {
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+
+p span:first-child {
+  float: left;
+}
+
+p span:last-child {
+  float: right;
+}
+
+.progress {
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.progress div {
+  height: 20px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, crimson, gold);
+  animation: animation 1s;
+}
+
+@keyframes animation {
+  0% {
+    width: 0;
+  }
+}
